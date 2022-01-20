@@ -68,6 +68,7 @@ html{
 }
 /* custom scrollbar end */
 
+/* tag text */
 h1{
     font-size: 58px;
     font-weight: 900;
@@ -114,7 +115,9 @@ p{
     line-height: 1.75rem;
     letter-spacing: 1px;
 }
+/* tag text end */
 
+/* main a.k.a. nav button */
 .main-btn{
     display: inline-block;
     padding: .625rem 1.875rem;
@@ -135,5 +138,74 @@ p{
 
 .main-btn:hover{
     background-color: transparent;
+    color: var(--primary-color);
+}
+/* main a.k.a. nav button end */
+
+.wrapper{
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+}
+
+.text-content{
+    width: 70%;
+    margin: auto;
+}
+
+/* header */
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.navigation-wrap .nav-item{
+    padding: 0 .625rem;
+    transition: all .3s linear;
+}
+
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.nav-link{
+    font-size: .9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--white-color);
+    letter-spacing: 1px;
+}
+
+.nav-link:hover, .nav-link.active{
+    color: var(--primary-color) !important;
+}
+
+.navigation-wrap .main-btn{
+    padding: .3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: .625rem;
+}
+
+.navigation-wrap.scroll-on{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 .125rem 1.75rem 0 rgb(0,0,0,.09);
+    transition: all .15s ease-in-out 0s;
+}
+
+.navigation-wrap.scroll-on .nav-link{
+    color: black;
+}
+
+.navigation-wrap.scroll-on .nav-link:hover,
+.navigation-wrap.scroll-on .nav-link.active{
     color: var(--primary-color);
 }
