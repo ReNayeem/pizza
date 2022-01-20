@@ -48,6 +48,7 @@ ul,
 ol{
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 /* custom scrollbar */
@@ -209,3 +210,18 @@ p{
 .navigation-wrap.scroll-on .nav-link.active{
     color: var(--primary-color);
 }
+
+/* header a.k.a. nav end */
+
+/* first section */
+.top-banner{
+    width: 100%;
+    background: url(images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
+
+.top-banner p{
+    color: white;
+}
+/* first section end */
