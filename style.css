@@ -67,3 +67,24 @@ html{
     background: var(--secondary-color);
 }
 /* custom scrollbar end */
+
+h1{
+    font-size: 58px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: var(--white-color);
+    text-shadow: 1px 0 6px black;
+}
+
+h1 span{
+    color: var(--primary-color);
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    line-height: 3rem;
+}
