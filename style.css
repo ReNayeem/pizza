@@ -75,7 +75,7 @@ h1{
     font-weight: 900;
     margin-bottom: 1rem;
     color: var(--white-color);
-    text-shadow: 1px 0 6px black;
+    text-shadow: 1px 0 6px var(--black-color);
 }
 
 h1 span{
@@ -208,7 +208,7 @@ p{
 }
 
 .navigation-wrap.scroll-on .nav-link{
-    color: black;
+    color: var(--black-color);
 }
 
 .navigation-wrap.scroll-on .nav-link:hover,
@@ -272,10 +272,48 @@ p{
     display: inline-block;
     text-transform: uppercase;
     font-weight: 700;
-    color: black;
+    color: var(--black-color);
 }
 
 .card:hover .cat-title a{
     color: var(--primary-color);
 }
 /* second section end */
+
+/* third section */
+.about-section{
+    background: var(--black-color);
+}
+
+.about-section .text-sec{
+    padding:0 2rem;
+}
+
+.food-type{
+    padding-top: 4.25rem;
+}
+
+.food-type ul li{
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.food-type ul li::before{
+    position: absolute;
+    left: -2.1875rem;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    content: '\f00c';
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.third-section-image{
+    background: var(--black-color);
+}
+/* third section end */
