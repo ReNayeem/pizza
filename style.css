@@ -199,16 +199,16 @@ p{
 
 .navigation-wrap.scroll-on{
     position: fixed;
-    background-color: white;
+    /* background-color: white; */
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 0 .125rem 1.75rem 0 rgb(0,0,0,.09);
+    /* box-shadow: 0 .125rem 1.75rem 0 rgb(0,0,0,.09); */
     transition: all .15s ease-in-out 0s;
 }
 
 .navigation-wrap.scroll-on .nav-link{
-    color: var(--black-color);
+    color: var(--white-color);
 }
 
 .navigation-wrap.scroll-on .nav-link:hover,
